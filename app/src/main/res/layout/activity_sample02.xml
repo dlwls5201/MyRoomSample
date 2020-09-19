@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".onetomany2.Sample02Activity">
+
+    <!-- folder -->
+    <Button
+        android:id="@+id/btnInsertFolder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insert Folder" />
+
+    <!-- folder -->
+    <Button
+        android:id="@+id/btnInsertChildFolder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insert Child Folder" />
+
+    <Button
+        android:id="@+id/btnDeleteFolder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="delete Folder" />
+
+    <Button
+        android:id="@+id/btnGetFolders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Folders" />
+
+    <Button
+        android:id="@+id/btnClearFolders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear Folders" />
+
+    <!-- file -->
+    <Button
+        android:id="@+id/btnInsertFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Insert File" />
+
+    <Button
+        android:id="@+id/btnDeleteFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="delete File" />
+
+    <Button
+        android:id="@+id/btnGetFiles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Files" />
+
+    <Button
+        android:id="@+id/btnClearFiles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear Files" />
+</LinearLayout>
